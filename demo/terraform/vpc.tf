@@ -1,6 +1,6 @@
 module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
-  version = "3.14.2"
+  version = "4.0.1"
 
   name = "vpc-${local.environment}"
   cidr = "10.0.0.0/16"
@@ -13,4 +13,9 @@ module "vpc" {
   enable_nat_gateway      = true
   map_public_ip_on_launch = false
   single_nat_gateway      = true
+
+  tags = {
+    Environment = local.environment
+  }
+
 }
