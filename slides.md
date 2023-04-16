@@ -9,33 +9,28 @@ class:
 
 theme:
 
+
 ---
 
+![bg fit](assets/geecon.jpg)
+
+
+---
+
+# Questions
+
 <style scoped>
-  h1 {
-    padding: 10px;
-  }
+h1 {
+  font-size: 120px;
+}
 </style>
 
-# <!--fit--> **Accelerating** InnerSource at enterprise scale 
-# <!--fit--> with GitHub action runners in **AWS cloud** at Philips
+https://sli.do use code: #geecon
 
-<br>
 
-<br>
 
-<br>
+![bg](assets/questions.jpeg)
 
-<br>
-
-<br>
-
-<br>
-
-## Niek Palm
-
-<!-- ![bg](assets/cents.jpeg) -->
-![bg](assets/infra-as-code.jpg)
 
 ---
 
@@ -47,7 +42,7 @@ _color: white
 
 # How do you picture Philips?
 
-![bg left](assets/philips-factory.jpg)
+![bg left:40%](assets/philips-factory.jpg)
 
 <!--
 What are we doing here?
@@ -65,17 +60,6 @@ _color: white
 ![bg left](assets/bulb.jpeg)
 
 # Probably this?
-
----
-
-<!--
-_backgroundColor: white
-_color: #0072DA
--->
-
-![bg right](assets/airfryer.jpeg)
-
-# Maybe this?
 
 ---
 
@@ -173,7 +157,7 @@ _color: #EABEDB
 - How do we help with compliance?
 
 
-![50% bg right](assets/innersource.png)
+![bg left](assets/lego-dev.jpeg)
 
 <!-- 
 
@@ -243,6 +227,8 @@ _color: #FDD37A
 ![bg right](assets/money.jpeg)
 
 ---
+
+
 
 <!--
 _backgroundColor: #008540
@@ -504,8 +490,8 @@ section {
 # <!-- fit --> 📢 DEMO
 
 * Create cloud resources
-* Connect cloud with GitHub
-* Run 40 jobs
+* Configure webhook
+* Run jobs on Linux / Windows
 
 ![bg right](assets/building.jpeg)
 
@@ -577,6 +563,32 @@ _color: #3D0F58
 
 ![bg right:30%](assets/droste.jpeg)
 
+
+---
+<!--
+_backgroundColor: #8345BA
+_color: #3D0F58
+-->
+
+# Deployment - Terragrunt
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+![bg 80%](assets/terragrunt.png)
+
+
 ---
 
 <!--
@@ -584,9 +596,9 @@ _backgroundColor: #8345BA
 _color: #3D0F58
 -->
 
-# Deployment
+# Deployment - OIDC
 
-Now can we avoid avoid using keys in CI?
+Can we avoid using keys?
 
 * Define OIDC provider for GitHub in AWS
 * Create role with trust based on claim
@@ -721,8 +733,9 @@ _color: #93C2F8
 
 * Caching GitHub runner binary
 * Pre-build AMI
+* Utilize Insance store
 
-![bg left fit](assets/speed.png)
+![bg left](assets/speed.png)
 
 
 ---
@@ -752,20 +765,136 @@ _color: #93C2F8
 
 ---
 
-# Costs
+<!--
+_backgroundColor: #110d0d
+_color: #0072DA
+-->
 
-![bg](assets/wallet.jpeg)
+# <!-- fit --> Developer Portal
+
+> Build an ecosystem, not a wilderness
+
+- Software Catalogus
+- Bootstrap / Scaffolding
+- TechDocs
+- Plugins
+
+
+![bg left:40%](assets/backstage-whatis.png)
+
 
 ---
+
+<!--
+_backgroundColor: #000000
+_color: #0072DA
+-->
+
+# Software Catalogus
+
+
+![50%](assets/backstage-marketplace.jpg)
+
+---
+
+<!--
+_backgroundColor: #000000
+_color: #0072DA
+-->
+
+# Scaffolding
+
+
+![50%](assets/backstage-scaffold.jpg)
+
+---
+
+<!--
+_backgroundColor: #000000
+_color: #0072DA
+-->
+
+# TechDocs
+
+
+![50%](assets/backstage-techdocs.jpg)
+
+---
+
+<!--
+_backgroundColor: white
+_color: #0072DA
+-->
+
+![bg right:48%](assets/backstage-aws.png)
+
+# <!-- fit --> 🥲 not 100% serverless
+
+- ALB to enforce SSO login
+- Fargate to serve Backstage 
+- OpenSearch to speed up searches
+- S3 to serve TechDocs
+
+
+---
+
+<!--
+_backgroundColor: #D10077
+_color: #EABEDB
+-->
+
+# Compliance
+
+* Assist to do it right - scaffolding
+* Avoid shadow IT - e.g. runners
+* Continuous compliance - rule based
+* Guide - welcome issue new members
+
+![bg left:40%](assets/control.jpeg)
+
+
+---
+
+
+<!--
+_backgroundColor: #D10077
+_color: #EABEDB
+-->
+
+# Welcome new members
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+![bg 70%](assets/events.png)
+
+---
+
 # Questions
 
 <style scoped>
-section {
-  font-size: 70px;
+h1 {
+  font-size: 120px;
 }
 </style>
 
+https://sli.do use code: #geecon
+
+
+
 ![bg](assets/questions.jpeg)
+
 
 ---
 <!--
@@ -784,7 +913,7 @@ resource "website" "github_oidc" {
 }
 
 resource "website" "slides" {
-  url = "github.com/philips-labs/2022-10-03_scaling-github-runners"
+  url = "github.com/todo"
 }
 
 resource "contact" "niek" {
