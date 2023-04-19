@@ -856,23 +856,6 @@ _color: #EABEDB
 ![bg 70%](assets/events.png)
 
 ---
-
-# Questions
-
-<style scoped>
-h1 {
-  font-size: 120px;
-}
-</style>
-
-https://sli.do use code: #geecon
-
-
-
-![bg](assets/questions.jpeg)
-
-
----
 <!--
 _backgroundColor: black
 -->
@@ -889,7 +872,7 @@ resource "website" "github_oidc" {
 }
 
 resource "website" "slides" {
-  url = "github.com/todo"
+  url = "https://npalm.github.io/2023-04-20-geecon-devx/"
 }
 
 resource "contact" "niek" {
@@ -905,6 +888,23 @@ resource "contact" "niek" {
 
 
 ---
+# Questions
+
+<style scoped>
+h1 {
+  font-size: 120px;
+}
+</style>
+
+https://sli.do use code: #geecon
+
+
+
+![bg](assets/questions.jpeg)
+
+
+---
+
 
 <!--
 _backgroundColor: #D10077
