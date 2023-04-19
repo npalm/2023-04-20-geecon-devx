@@ -724,7 +724,7 @@ _backgroundColor:  red
 _color: yellow
 -->
 
-# <!-- fit --> 🔥 Service Unavailable 🔥
+# <!-- fit --> 🔥 Mission critical 🔥
 
 
 ![bg right](assets/smoke.png)
