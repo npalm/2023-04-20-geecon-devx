@@ -668,18 +668,6 @@ jobs:
 
 ---
 
-<!--
-_backgroundColor:  #002C77
-_color: #93C2F8
--->
-
-# <!-- fit --> 🚀 It works 🚀
-
-
-![bg right](assets/lego.jpeg)
-
-
----
 
 <!--
 _backgroundColor:  #002C77
@@ -724,19 +712,36 @@ We don't own it - It just work - We dont care
 
 ---
 
-# Rate Limits
+# Limits
 
 ![bg](assets/rate-limit.jpeg)
 
 ---
 
-# Monitor
 
-* How long are you users waiting?
-* Are you developers waiting forever?
-* How dow we find our sweet spot?
+<!--
+_backgroundColor:  red
+_color: yellow
+-->
 
-![bg left:40%](assets/monitor.jpeg)
+# <!-- fit --> 🔥 Service Unavailable 🔥
+
+
+![bg right](assets/smoke.png)
+
+
+---
+
+<!--
+_backgroundColor:  #002C77
+_color: #93C2F8
+-->
+
+# <!-- fit --> 🚀 We are back 🚀
+
+
+![bg right](assets/lego.jpeg)
+
 
 ---
 
