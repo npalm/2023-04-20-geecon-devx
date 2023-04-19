@@ -1,0 +1,22 @@
+matcherConfig:
+  exactMatch: true
+  labelMatchers:
+    - [self-hosted, windows, x64, demo, ecs-2022]
+fifo: true
+delay_webhook_event: 5
+runner_config:
+  runner_os: windows
+  runner_architecture: x64
+  runner_extra_labels: demo,ecs-2022
+  runner_name_prefix: ecs-2022-x64_
+  runner_group_name: niek-demo
+  enable_organization_runners: true
+  enable_ssm_on_runners: true
+  instance_types:
+    - m5.xlarge
+  runners_maximum_count: 1
+  scale_down_schedule_expression: cron(0/15 * * * ? *)
+  runner_boot_time_in_minutes: 20
+  ami_filter:
+    name:
+      - Windows_Server-2022-English-Core-ContainersLatest-*
