@@ -12,7 +12,7 @@ This repository has slides and demo resources for the talk [Improve DevX at scal
 ## Speaker
 
 <!-- markdownlint-disable MD013 MD033 -->
-| [![Niek Palm](https://avatars.githubusercontent.com/npalm?s=100)<br />Niek Palm](https://github.com/npalm)<br /><sub>Principal Engineer - SWCoE</sub> |
+| [![Niek Palm](https://avatars.githubusercontent.com/npalm?s=100)<br />Niek Palm](https://github.com/npalm)<br /><sub>Principal Engineer - Philips</sub> |
 | :---: |
 <!-- markdownlint-enable MD013 MD033 -->
 
