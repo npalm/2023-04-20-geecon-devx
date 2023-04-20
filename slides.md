@@ -100,9 +100,9 @@ _color: white
 
 - Global organisation
 
-- Global Organisation
-
 - Regulated medical software
+
+- 100s millions lines of code
 
 
 ![bg left](assets/nicolab_strokeviewer.jpeg)
@@ -731,6 +731,21 @@ _color: yellow
 
 
 ---
+
+
+<!--
+_backgroundColor:  red
+_color: yellow
+-->
+
+# <!-- fit --> 🔥 🔥 🔥 🔥 🔥 🔥
+
+
+![bg left:60%](assets/duration.png)
+
+
+---
+
 
 <!--
 _backgroundColor:  #002C77
